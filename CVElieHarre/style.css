@@ -1,0 +1,519 @@
+
+/*Header + Navbar*/
+
+
+
+#secnavbar
+{
+    background-color: #282828;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.575);
+    
+    
+}
+
+#menunav, li
+{
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#eh
+{
+ color: #CB5164;
+ margin-top: auto;
+ margin-bottom: auto;
+ padding: 5px;
+ flex: 1;
+ font-size: 2em;
+
+}
+
+#navbar
+{
+    display: flex;   
+}
+
+#ulmenunav
+{
+    display: flex;
+    flex: 1 0;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: white;
+}
+
+a
+{
+   color: white;
+   text-decoration: none;
+}
+
+a:hover
+{ 
+    color: #CB5164; 
+}
+/* Section En-tête -------------------------------- Background Visuel*/
+
+#secintro
+{
+    background-color: #2C2D2D ;
+    margin: 90px;
+}
+
+#elieh
+{
+    font-size: 7em;
+        background: linear-gradient(to right, #CB5164, #3C2D2F);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;  
+}
+
+#devtwi
+{
+    font-style: italic;
+    margin-top: -90px;
+    padding-left: 7px;
+
+}
+
+
+#eye
+{
+    padding-left: 5px;
+    font-size: 2em;
+}
+/*Section A propos de moi ----------------------------- Background*/
+
+#secmoi
+{
+    background-color: #282828;
+    display: flex;
+    padding: 7px;
+    margin: 90px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.575);
+    border-radius: 5px;
+}
+
+#imgelie
+{
+padding-left: 20px;
+}
+
+#txtmoi
+{
+    padding-left: 20px ;
+}
+
+#h2moi
+{
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .7px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 0 10px 37px;
+}
+#h2moi::before
+{
+    background: linear-gradient(to right, #573439, #CB5164);
+    content: '';
+    position: absolute;
+    top: 11px;
+    left: 0;
+    width: 29px;
+    height: 3px;
+}
+img
+{
+
+    width: 340px;
+    height: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#mailicon
+{
+ padding-left: 50px;
+}
+
+
+
+
+
+/*Section Expérience -------------------------------------------------- Box EXP*/
+
+#secexp
+{
+    background-color: #282828;
+    margin: 90px;
+    padding: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.575);
+    border-radius: 5px;
+
+}
+
+#h2exp
+{
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .7px;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0 37px 10px 37px;
+    text-align: center;
+}
+#h2exp::before
+{
+    background: linear-gradient(to right, #573439, #CB5164);
+    content: '';
+    position: absolute;
+    top: 13px;
+    left: 0;
+    width: 150px;
+    height: 3px;
+}
+#h2exp::after
+{
+    background: linear-gradient(to left, #573439, #CB5164);
+    content: '';
+    position: absolute;
+    top: 13px;
+    right: 0;
+    width: 150px;
+    height: 3px;
+}
+.exp1
+{
+    background-color: #282828 ;
+}
+
+.exp2
+{
+    background-color: #282828;
+}
+
+.exp3
+{
+    background-color: #282828 ;
+}
+
+.exp4
+{
+    background-color: #282828;
+}
+.date
+{
+    color: #CB5164;
+}
+.contrat
+{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: .3px;
+    color: #a2a2a2;
+    margin-left: 4px;
+    padding-left: 8px;
+    border-left: 1px solid #a2a2a2;
+}
+
+/* Section Compétences ---------------------------------------------- Box COMP*/
+
+#seccomp
+{
+    background-color: #282828;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.575);
+    margin: 90px;
+    border-radius: 5px;
+    
+}
+
+#h2comp
+{
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: .7px;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 4px 37px 10px 37px;
+    text-align: center;
+}
+#h2comp::before
+{
+    background: linear-gradient(to right, #573439, #CB5164);
+    content: '';
+    position: absolute;
+    top: 17px;
+    left: 4px;
+    width: 150px;
+    height: 3px;
+}
+
+#h2comp::after
+{
+    background: linear-gradient(to left, #573439, #CB5164);
+    content: '';
+    position: absolute;
+    top: 17px;
+    right: 4px;
+    width: 150px;
+    height: 3px;
+}
+
+
+.comp1
+{
+    
+    background-color: #2C2D2D;
+
+    position: relative;
+    background: #282828;
+    text-align: center;
+    padding: 25px 8px;
+    margin-bottom: 30px;
+
+}
+
+.comp2
+{
+    background-color: #2C2D2D;
+
+    position: relative;
+    background: #282828;
+    text-align: center;
+    padding: 25px 8px;
+    margin-bottom: 30px;
+}
+
+.comp3
+{
+    background-color: #2C2D2D ;
+
+    position: relative;
+    background: #282828;
+    text-align: center;
+    padding: 25px 8px;
+    margin-bottom: 30px;
+}    
+
+.comp4
+{
+    background-color: #2C2D2D;
+
+    position: relative;
+    background: #282828;
+    text-align: center;
+    padding: 25px 8px;
+    margin-bottom: 30px;
+
+}
+
+.fa-user
+{
+    color: #CB5164 ;
+}
+
+.fa-stream
+{
+    color: #CB5164
+}
+
+.fa-desktop
+{
+    color: #CB5164
+}
+.fa-globe
+{
+    color: #CB5164;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER ---------------------------------------------------------------------- BODY*/
+
+footer
+{
+    background-color: #282828;
+    margin: 90px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.575);
+    border-radius: 5px; 
+}
+
+#h1footer
+{
+    padding-top: 5px;
+}
+
+
+h1, h2, h3, h4
+{
+    color: whitesmoke;
+}
+
+#sociallinks
+{
+    padding-bottom: 5px;
+}
+
+#rights
+{
+    margin-top: -20px;
+}
+
+
+
+/* BODY GLOBAL */
+
+body
+{
+    font-family: 'Asap', sans-serif;
+    color: #838383;
+    background: #2C2D2D ;
+    background-image: url("img/redback.png");
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+/* FONT FAMILY------------------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'asapsymbol';
+    src: url('Asap-Symbol-webfont.eot');
+    src: url('Asap-Symbol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Asap-Symbol-webfont.woff2') format('woff2'),
+         url('Asap-Symbol-webfont.woff') format('woff'),
+         url('Asap-Symbol-webfont.ttf') format('truetype'),
+         url('Asap-Symbol-webfont.svg#asapsymbol') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* MEDIA QUERY ---------------------------------------------------------------------------------------- */
+
+@media all and (max-width: 865px)
+{
+    #h2comp::before{
+        background: linear-gradient(to right, #573439, #CB5164);
+        content: '';
+        position: absolute;
+        top: 35px;
+        left: 4px;
+        width: 150px;
+        height: 3px;
+    }
+    #h2comp::after
+    {
+    background: linear-gradient(to left, #573439, #CB5164);
+    content: '';
+    position: absolute;
+    top: 35px;
+    right: 4px;
+    width: 150px;
+    height: 3px;
+    }
+
+    #h2exp::before
+    {
+    background: linear-gradient(to right, #573439, #CB5164);
+    content: '';
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 150px;
+    height: 3px;
+    }
+    #h2exp::after
+    {
+    background: linear-gradient(to left, #573439, #CB5164);
+    content: '';
+    position: absolute;
+    top: 35px;
+    right: 0;
+    width: 150px;
+    height: 3px;
+    }
+    #secmoi
+    {
+    background-color: #282828;
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.575);
+    border-radius: 5px;
+    }
+
+    img
+    {
+
+    width: 240px;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    padding: 7px;
+    }
+    #imgelie
+    {
+    text-align: center;
+    margin: auto;
+    padding-left: 0px;
+    }
+
+    #secmoi
+    {
+    margin: 0%;
+    margin-top: 10%;
+    }
+
+    #secexp
+    {
+        margin: 0%;
+        margin-top: 10%;
+    }
+
+    #seccomp
+    {
+        margin: 0%;
+        margin-top: 10%;
+    }
+
+    footer
+    {
+        margin: 0%;
+    }
+
+    #secintro
+    {
+        margin: 0%;
+    }
+
+
+
+}
